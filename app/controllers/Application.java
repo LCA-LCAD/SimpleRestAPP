@@ -35,7 +35,7 @@ public class Application extends Controller {
             } else {
                 Person person = new Person(name,age);
                 person.save();
-                return TODO;
+                return ok();
             }
         }
     }

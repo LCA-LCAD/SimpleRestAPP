@@ -11,4 +11,4 @@ GET         /assets/*file        controllers.Assets.at(path="/public", file)
 GET         /persons             controllers.Application.listPersons()
 
 
-POST        /addPerson            controllers.Application.addPerson()
+POST        /addPerson           controllers.Application.addPerson()
